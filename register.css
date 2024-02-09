@@ -1,0 +1,85 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+.header
+{
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(window.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.header img
+{
+  width: 170px;
+  margin: 0 0%;
+  float: left;
+  background: transparent;
+}
+.header h1
+{
+  padding-top: 250px;
+  padding-bottom: 0;
+  font-size: 55px;
+}
+.header p
+{
+  margin: 18px 0; 
+}
+.button-btn
+{
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #3EB489;
+  border-radius: 80px;
+  background: #3EB489;
+  color: #fff;
+  float: right;
+	cursor: pointer;
+}
+
+.form-control
+{
+  border: 0 !important;
+	border-radius: 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
+
+}
+.input-group
+{
+  width: 90%!important;
+  max-width: 200px;
+  border-radius: 2   0px;
+  background: #fff;
+  margin: auto;
+  padding: 2px;
+}
+.button
+{
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 80px;
+  background-image: linear-gradient(#00ff7e,#1f3d90);
+  color: #fff;
+  border: 0 !important;
+}
+.input-group-light
+{
+  width: 90%!important;
+  max-width: 260px;
+  border-radius: 2   0px;
+  background: #fff;
+  margin: auto;
+  padding: 2px;
+}
