@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>
+      QuantumAutoBlinds
+    </title>
+    <link rel="stylesheet" href="register.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    <section class="header">
+      <div class="container">
+        <img src="banner1.png" id ="center-image"/>
+        <div>
+          <a href="device.html">
+            <button type="button" class="button-btn">Device</button>
+          </a>
+        </div>
+				<div>
+          <a href="register.html">
+            <button type="button" class="button-btn">Register</button>
+          </a>
+        </div>
+        <div>
+          <a href="about_us.html">
+            <button type="button" class="button-btn">About Us</button>
+          </a>
+        </div>
+        <div>
+          <a href="index.html">
+            <button type="button" class="button-btn">Home</button>
+          </a>
+        </div>
+      </div>
+			<div id="box">
+      <h1>Switch your device on or off</h1>
+			<button onclick = "on()" class = "button">
+				On
+			</button>
+			<button onclick = "off()" class = "button">
+				Off
+			</button>
+			<br></br>
+			<div class="input-group-light">
+				<input type="number" id="min_light" class="form-control" placeholder="Select minimum light intensity"</input>
+			</div>
+			<div class="input-group-light">
+			<input type="number" id="max_light" class="form-control" placeholder="Select maximum light intensity"</input>
+			</div>
+			<button id ="enter" class="button" type="button">Enter</button>
+			</div>
+    </section>
+  </body>
+	<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+	<script src="device.js"></script>
+</html>
