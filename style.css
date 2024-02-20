@@ -7,7 +7,7 @@
 .header
 {
   height: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(window.png);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(assets/window.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -209,7 +209,7 @@
 .banner
 {
   height: 80%;
-  background-image: url(background_image.jfif);
+  background-image: url(assets/background_image.jfif);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
